@@ -1,17 +1,22 @@
+# for i in range(10):
+#     print('looping ..', i)
 
-name = input('What is your name? ')
+# favorites = ['pizza', 'pasta', 'ice cream', 'chocolate', 'sushi']
 
-print(f"Type of name variable is: {type(name)}. It should be <class 'str'>")
+# for idx, item in enumerate(favorites):
+#     print(idx, item)
 
-age = int(input('What is your age? '))
+# count = 0
 
-print(f"Type of age variable is: {type(age)}. It should be <class 'int'>")
+# while count < len(favorites):
+#     print('i like this food', favorites[count])
+#     count += 1
 
+# bill = 100
+# tax_rate = 15
+# total_tax = bill * tax_rate / 100
+# print('Total tax', total_tax)
 
-height = float(input('What is your height in meters? '))
-
-print(f"Type of height variable is: {type(height)}. It should be <class 'float'>")
-
-loyalty = bool(input('Are you part of our loyalty program? '))
-
-print(f"Type of loyalty variable is: {type(loyalty)}. It should be <class 'bool'>")
+def calculate_tax(bill, tax_rate):
+    return bill * tax_rate / 100
+    
