@@ -42,13 +42,73 @@
 
 # print(new_list)
 
-def isPalindrome(str):
-    startIndex = 0
-    endIndex = len(str) - 1
+# def isPalindrome(str):
+#     startIndex = 0
+#     endIndex = len(str) - 1 
 
-    for x in str:
-        if str[startIndex] != str[endIndex]:
-            return False
-    return True
+#     for x in str:
+#         if str[startIndex] != str[endIndex]:
+#             return False
+#     return True
 
-print(isPalindrome('racecar'))
+# print(isPalindrome('racecar'))
+
+# menu = ['pizza', 'pasta', 'ice cream', 'chocolate', 'sushi']
+
+# def find_sushi(sushi):
+#     if sushi[0] == 's':
+#         return sushi
+
+# map_sushi = map(find_sushi, menu)
+# print(map_sushi)
+# for x in map_sushi:
+#     print(x)
+
+# a=[[96],[69]]
+# print(''.join(list(map(str,a))))
+
+# z = ["alpha", "bravo", "charlie"]
+# new_z = [i[0]*2 for i in z]
+# print(new_z)
+
+# def sum(n):
+#     if n == 1:
+#         return 0
+#     return n + sum(n-1)
+
+# a = sum(5)
+# print(a)
+
+# numbers = [15,30,47,82,95]
+# def lesser(numbers):
+#     return numbers < 50
+
+# small = list(map(lesser, numbers))
+# print(small)
+
+# class MyClass:
+#     a = 5
+
+#     def hello(self):
+#         print('hello, world!')
+
+# myclass = MyClass()
+# print(myclass.a)
+# print (myclass.hello())
+
+# value = 7
+# class A:
+#     value = 5
+# a = A()
+# a.value = 3
+# print(value)
+
+# class MyFirstClass():
+#     print("Who wrote this?")
+#     index = "Author-Book"
+#     def hand_list(self, philosopher, book, year):
+#         print(MyFirstClass.index)
+#         print(philosopher + " wrote the book: " + book + " in " + year)
+# whodunnit = MyFirstClass()
+# whodunnit.hand_list("Sun Tzu", "The Art of War", "500 BC")
+
