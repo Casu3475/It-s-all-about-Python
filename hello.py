@@ -88,27 +88,19 @@
 
 # class MyClass:
 #     a = 5
+class A:
+   def a(self):
+       return "Function inside A"
 
-#     def hello(self):
-#         print('hello, world!')
+class B:
+   def a(self):
+       return "Function inside B"
 
-# myclass = MyClass()
-# print(myclass.a)
-# print (myclass.hello())
+class C:
+   pass
 
-# value = 7
-# class A:
-#     value = 5
-# a = A()
-# a.value = 3
-# print(value)
+class D(C, A, B):
+   pass
 
-# class MyFirstClass():
-#     print("Who wrote this?")
-#     index = "Author-Book"
-#     def hand_list(self, philosopher, book, year):
-#         print(MyFirstClass.index)
-#         print(philosopher + " wrote the book: " + book + " in " + year)
-# whodunnit = MyFirstClass()
-# whodunnit.hand_list("Sun Tzu", "The Art of War", "500 BC")
-
+d = D()
+print(d.a())
