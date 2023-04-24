@@ -101,6 +101,3 @@ class C:
 
 class D(C, A, B):
    pass
-
-d = D()
-print(d.a())
